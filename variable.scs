@@ -1,0 +1,24 @@
+// Variables de colores y fuentes
+$verde: #2e8b57;
+$verde-claro: #90ee90;
+$gris: #444;
+$blanco: #fff;
+$negro: #000;
+
+$fuente-principal: 'Segoe UI', sans-serif;
+$tamanio-titulo: 2.5rem;
+$tamanio-subtitulo: 1.5rem;
+$tamanio-texto: 1rem;
+// Colores principales
+$color-principal: #2e7d32; // Verde naturaleza
+$color-secundario: #a5d6a7; // Verde claro
+$color-acento: #ffcc80; // Naranja suave
+$color-texto: #333;
+$color-fondo: #f9fbe7;
+
+// Tipografía
+$fuente-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+// Breakpoints (para responsividad)
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 480px;

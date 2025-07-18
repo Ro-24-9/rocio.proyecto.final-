@@ -1,0 +1,59 @@
+// Estilo para layout general
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+header {
+  @include centrar;
+  background-color: $verde;
+  color: $blanco;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  background-color: $verde-claro;
+  padding: 1rem;
+  ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    li {
+      list-style: none;
+    }
+  }
+}
+
+footer {
+  background-color: $verde;
+  color: $blanco;
+  text-align: center;
+  padding: 1rem;
+}
+header {
+  background-color: $color-principal;
+  color: white;
+  padding: 1rem;
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer {
+  background-color: $color-principal;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}

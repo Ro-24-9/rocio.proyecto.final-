@@ -1,0 +1,15 @@
+// Mixin para centrar con Flexbox
+@mixin centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Mixin para responsividad
+@mixin responsive($prop, $valor1, $valor2) {
+  #{$prop}: $valor1;
+
+  @media (max-width: 768px) {
+    #{$prop}: $valor2;
+  }
+}
